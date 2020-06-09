@@ -1,13 +1,6 @@
 import "./main.scss"
 const projects = [];
 
-//sidebar js
-$(document).ready(function () {
-    $('#sidebarCollapse').on('click', function () {
-        $('#sidebar').toggleClass('active');
-    });
-});
-
 //selectors
 let addProjectBtn = document.querySelector('#addProjectBtn');
 let deleteProjectBtn = document.getElementsByClassName('delete-project');
